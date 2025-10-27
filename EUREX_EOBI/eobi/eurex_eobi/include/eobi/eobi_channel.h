@@ -6,20 +6,6 @@
 #include <unordered_set>
 #include <unordered_map>
 
-#include "adapter_interface/adapter_api.h"
-#include "adapter_interface/instrument_definition.h"
-#include "adapter_util/mcast_feed.h"
-#include "adapter_util/mcast_receiver.h"
-#include "adapter_util/packet_buffer_pool.h"
-#include "adapter_util/replay.h"
-#include "adapter_util/time.h"
-#include "adapter_util/worker_thread.h"
-#include "adapter_util/sequence_message_manager.h"
-#include "adapter_util/tcp_feed_info.h"
-#include "adapter_util/trace_logger.h"
-#include "adapter_util/trading_date_store.h"
-#include "logger/logger.h"
-
 #include "eobi_messages.h"
 #include "eobi_common.h"
 #include "eobi_header.h"
